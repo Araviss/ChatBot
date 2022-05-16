@@ -51,6 +51,7 @@ pickle.dump(words,open('words.pkl','wb'))
 #Save classes in file
 pickle.dump(classes,open('classes.pkl','wb'))
 
+#CREATING THE TRAINING DATA
 #Set individual word values to 0 or 1 depending on whether it occurs
 training = []
 output_empty = [0] * len(classes)
